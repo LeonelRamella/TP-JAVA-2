@@ -1,14 +1,14 @@
-let textoRes = "";
+let textoCadena = "";
 
 do{
     let texto = prompt(`Ingrese una cadena de texto: `);
 
-    if (textoRes !== "") {
-        textoRes = texto + " - " + textoRes;
+    if (textoCadena !== "") {
+        textoCadena = texto + " - " + textoCadena;
     } else {
-        textoRes = texto;
+        textoCadena = texto;
     }
 
-}while(confirm(`¿Desea seguir ingresando texto?`));
+}while(confirm("¿Desea seguir ingresando texto?"));
 
-document.write(textoRes);
+document.write(textoCadena);
