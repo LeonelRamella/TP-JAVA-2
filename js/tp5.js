@@ -1,11 +1,3 @@
-// let dni = prompt(parseInt("Ingrese su DNI:"))
-// while(isNaN(dni) || ){
-//     if(confirm("No se introdujo un número. ¿Desea volver a intentar?")){
-//         dni = parseInt(prompt(`Ingrese el DNI (0 - 99999999): `));
-//     } else{
-//         break;
-//     }
-// }
 let dni = parseInt(prompt("Ingrese el DNI (0 - 99999999): "));
 
 while(isNaN(dni) || dni <= -1 ||dni>= 99999999 ){
